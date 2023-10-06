@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefaef;
+  }
+  
+  .banner {
+    width: 90%;
+    position: relative;
+    object-fit: cover;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .banner p {
+    font-size: 36px;
+    font-weight: 600;
+    position: absolute;
+    transform: translate(110%, -180%);
+    color: white;
+  }
+  
+  .header {
+    background-color: #f59117;
+    width: 100%;
+    height: 56px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav1 {
+    display: flex;
+    gap: 20px;
+    color: white;
+    align-items: center;
+  }
+  .nav1 img {
+    height: 46px;
+  }
+  
+  .nav1 p {
+    opacity: 0.6;
+  }
+  
+  .nav2 {
+    display: flex;
+    gap: 20px;
+    color: white;
+    align-items: center;
+    opacity: 0.6;
+  }
+  
+  .intro {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .intro h1 {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .box {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card {
+    width: calc((100% - 60px) / 3);
+    border: 1px solid #dddd;
+  }
+  
+  .card-header {
+    background-color: #f59117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .card-info {
+    padding: 10px;
+    display: flex;
+  }
+  
+  .col {
+    width: calc((100% - 20px) / 2);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .footer {
+    width: 100%;
+    padding: 20px 200px;
+    background-color: #f59117;
+  }
+  
+  .footer-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .fcol {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .ffcol {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
